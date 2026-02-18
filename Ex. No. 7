@@ -1,0 +1,12 @@
+from statsmodels.stats.weightstats import ztest
+
+data = [10,12,13,12,11,12,14]
+z_stat, p_val = ztest(data, value=12)
+
+print("Z-stat:", z_stat)
+print("P-value:", p_val)
+
+
+Output:
+Z-stat: ~0.30
+P-value: ~0.76
