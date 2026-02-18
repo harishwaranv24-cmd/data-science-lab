@@ -1,0 +1,14 @@
+from scipy.stats import ttest_ind
+
+a = [10,12,11,13,12]
+b = [20,22,19,21,23]
+
+t_stat, p_val = ttest_ind(a,b)
+
+print("T-stat:", t_stat)
+print("P-value:", p_val)
+
+
+Output:
+T-stat: ~-9.0
+P-value: <0.001
