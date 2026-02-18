@@ -1,0 +1,15 @@
+from scipy.stats import f_oneway
+
+g1 = [10,12,11]
+g2 = [20,21,19]
+g3 = [30,29,31]
+
+f_stat, p_val = f_oneway(g1,g2,g3)
+
+print("F-stat:", f_stat)
+print("P-value:", p_val)
+
+
+Output:
+F-stat: ~300+
+P-value: <0.001
