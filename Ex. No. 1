@@ -1,0 +1,16 @@
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5])
+b = np.array([5, 4, 3, 2, 1])
+
+print("Array a:", a)
+print("Mean:", np.mean(a))
+print("Sum:", np.sum(a))
+print("Dot product:", np.dot(a, b))
+
+
+Output:
+Array a: [1 2 3 4 5]
+Mean: 3.0
+Sum: 15
+Dot product: 35
