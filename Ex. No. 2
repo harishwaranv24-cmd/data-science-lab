@@ -1,0 +1,17 @@
+import pandas as pd
+
+df = pd.DataFrame({
+    "Name": ["A", "B", "C"],
+    "Marks": [80, 90, 85]
+})
+
+print(df)
+print("Average Marks:", df["Marks"].mean())
+
+
+Output:
+  Name  Marks
+0    A     80
+1    B     90
+2    C     85
+Average Marks: 85.0
