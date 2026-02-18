@@ -1,0 +1,13 @@
+import numpy as np
+
+data = [10,20,20,30,30,30,40]
+
+print("Mean:", np.mean(data))
+print("Variance:", np.var(data))
+print("Std Dev:", np.std(data))
+
+
+Output: 
+Mean: 25.71
+Variance: 100.81
+Std Dev: 10.04
